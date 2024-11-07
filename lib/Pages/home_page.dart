@@ -39,10 +39,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple.shade300,
+      backgroundColor: Colors.blue.shade300,
       appBar: AppBar(
-        title: Text('Simple Todo'),
-        backgroundColor: Colors.deepPurple,
+        title: Text('To do'),
+        backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
       body: Column(
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                     child: Container(
                       padding: EdgeInsets.all(20.0),
                       decoration: BoxDecoration(
-                        color: Colors.deepPurple,
+                        color: Colors.blue,
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Row(
